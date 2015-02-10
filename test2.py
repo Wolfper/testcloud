@@ -16,5 +16,3 @@ def pasy(name = None, password = None):
 		elif not password:
 			password = input('podaj haslo: ')
 	return name, password
-	
-pasy()
